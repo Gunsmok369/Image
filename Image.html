@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        #home p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+        #home h2{
+            font-size:xx-large;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+            width: 450px; 
+            height: 250px;
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>IdeasTravel</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! We're thrilled to have you here. Whether you're an avid tech enthusiast or just curious about the latest innovations, you've come to the right place. Explore our diverse 
+        <br>collection of articles, guides, and resources covering a wide range of technological topics.</p>
+    <a href="https://www.pexels.com/search/technology/"><img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Technology"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+        <a href="https://lovepik.com/images/natural.html"><img src="https://img.lovepik.com/photo/48013/0627.jpg_wh300.jpg" alt="Nature"></a>
+        <a href="https://pixabay.com/photos/nature-waters-lake-island-3082832/"><img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="Nature"></a>
+        <a href="https://unsplash.com/t/nature"><img src="https://images.unsplash.com/photo-1709177440036-b24ae8557a02?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/300x200" alt="Nature"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://www.tasteofhome.com/collection/best-new-fast-food-items/"><img src="https://www.tasteofhome.com/wp-content/uploads/2022/03/KFC-Ultimate-BBQ-Chicken-Sandwich-Courtesy-Kentucky-Fried-Chicken-Resize-Crop-DH-TOH-Top-Fast-Food-Items-2023.jpg?fit=700,700" alt="Food Item 1"></a></li>
+        <li><a href="https://www.allrecipes.com/recipe/48727/mikes-homemade-pizza/"><img src="https://www.allrecipes.com/thmb/ooZbu_yUBrGQ74uKbuOENWuNxMM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/48727-Mikes-homemade-pizza-DDMFS-beauty-4x3-BG-2974-a7a9842c14e34ca699f3b7d7143256cf.jpg" alt="Food Item 2"></a></li>
+        <li><a href="https://www.mybakingaddiction.com/the-best-chocolate-cake/"><img src="https://www.mybakingaddiction.com/wp-content/uploads/2011/10/lr-0938-768x1152.jpg" alt="Food Item 3"></a></li>
+    </ul>
+</section>
+
+</body>
+</html>
